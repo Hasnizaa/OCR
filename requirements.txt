@@ -1,0 +1,16 @@
+pytesseract
+opencv-python
+pandas
+numpy
+scikit-learn
+streamlit
+pdf2image
+matplotlib
+numpy
+pandas
+scikit-learn
+matplotlib
+seaborn
+joblib
+python-dateutil
+tqdm

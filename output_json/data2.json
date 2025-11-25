@@ -1,0 +1,90 @@
+{
+    "customer_info": {
+        "name": "SITINURUL HAIDAR BINT] ABDULLAH SAPIAN aes 30/09/20",
+        "account_number": "112473-091156",
+        "statement_date": "30/09/20"
+    },
+    "transactions": [
+        {
+            "date": "06/07/20",
+            "transaction_type": "| SVG GIRO CR",
+            "merchant": "AIRPAY MALAYSIA SDN, / 191334117 RAND",
+            "debit": 0.0,
+            "credit": 36.47,
+            "balance": 2396.71
+        },
+        {
+            "date": "07/07/20",
+            "transaction_type": "| SNHO123",
+            "merchant": "MALACCA SECURITIES S / WC 0002167808",
+            "debit": 0.0,
+            "credit": 151.49,
+            "balance": 2651.93
+        },
+        {
+            "date": "07/07/20",
+            "transaction_type": "| FPX PAYMENT RR Aj",
+            "merchant": "284473430 * / FOODPANDA MALAYSIA S",
+            "debit": 23.29,
+            "credit": 0.0,
+            "balance": 2628.64
+        },
+        {
+            "date": "08/07/20",
+            "transaction_type": "| FPX PAYMENT FR Af",
+            "merchant": "285085625 * / FOODPANDA MALAYSIA S.",
+            "debit": 23.19,
+            "credit": 0.0,
+            "balance": 2605.45
+        },
+        {
+            "date": "09/07/20",
+            "transaction_type": "| PRE-AUTH MYDEBIT",
+            "merchant": "PETRON SETIA ALAM * / SHAH ALAM",
+            "debit": 66.0,
+            "credit": 0.0,
+            "balance": 2539.45
+        },
+        {
+            "date": "09/07/20",
+            "transaction_type": "| REV PREAUTH MYDEBIT",
+            "merchant": "PETRON SETIA ALAM * / SHAH ALAM",
+            "debit": 0.0,
+            "credit": 66.0,
+            "balance": 2605.45
+        },
+        {
+            "date": "09/07/20",
+            "transaction_type": "| PAYMENT VIA MYDEBIT",
+            "merchant": "PETRON SETIA ALAM * / SHAH ALAM",
+            "debit": 66.0,
+            "credit": 0.0,
+            "balance": 2539.45
+        },
+        {
+            "date": "10/07/20",
+            "transaction_type": "| IBK FUND TRR FR A/C",
+            "merchant": "PUAN JULLIATI BT AB* / ketam",
+            "debit": 100.0,
+            "credit": 0.0,
+            "balance": 2439.45
+        },
+        {
+            "date": "10/07/20",
+            "transaction_type": "| PAYMENT VIA MYDEBIT",
+            "merchant": "SKECHERS-IOI CT MAL* / PUTRAIAYA",
+            "debit": 360.0,
+            "credit": 0.0,
+            "balance": 2079.45
+        },
+        {
+            "date": "10/07/20",
+            "transaction_type": "| IBK FUND TRR FR A/C",
+            "merchant": "Pertation { Note / (1) Semua makfumat dan bels yeng dinyatakan di sini akan dianggep bet melairkan Bonk tilah dimakkunkan secera bectuls tontang saberang ketidaktepatan dalam",
+            "debit": 195.0,
+            "credit": 0.0,
+            "balance": 1884.45
+        }
+    ],
+    "total_transactions": 10
+}

@@ -1,0 +1,82 @@
+{
+    "customer_info": {
+        "name": "SITINURUL HAIDAR BINT] ABDULLAH SAPIAN aes 30/09/20",
+        "account_number": "112473-091156",
+        "statement_date": "30/09/20"
+    },
+    "transactions": [
+        {
+            "date": "03/08/20",
+            "transaction_type": "| SALE DEBIT",
+            "merchant": "309889245 *",
+            "debit": 113.21,
+            "credit": 0.0,
+            "balance": 2891.66
+        },
+        {
+            "date": "08/08/20",
+            "transaction_type": "| FPX PAYMENT FR Af",
+            "merchant": "311279267 * / FOODPANDA MALAYSIA S",
+            "debit": 23.69,
+            "credit": 0.0,
+            "balance": 2839.56
+        },
+        {
+            "date": "08/08/20",
+            "transaction_type": "| TRANSFER FROM A/C",
+            "merchant": "NURUL FEDYA BINTI B* / dulang raja",
+            "debit": 352.2,
+            "credit": 0.0,
+            "balance": 2487.36
+        },
+        {
+            "date": "09/08/20",
+            "transaction_type": "| TRANSFER FROM A/C",
+            "merchant": "ENTITY LOGISTIC SDN* / baterl",
+            "debit": 200.0,
+            "credit": 0.0,
+            "balance": 2287.36
+        },
+        {
+            "date": "11/08/20",
+            "transaction_type": "| FPX PAYMENT FR Af",
+            "merchant": "315506515 * / FOODPANDA MALAYSIA S.",
+            "debit": 112.63,
+            "credit": 0.0,
+            "balance": 2190.67
+        },
+        {
+            "date": "12/08/20",
+            "transaction_type": "| FUND TRANSFER TO Af",
+            "merchant": "NOOR AZLINA BINTI A* / Kekna",
+            "debit": 0.0,
+            "credit": 20.0,
+            "balance": 2210.67
+        },
+        {
+            "date": "14/08/20",
+            "transaction_type": "| IBK FUND TRR FR A/C",
+            "merchant": "SITI NURUL ASHIKIN * / tudung",
+            "debit": 100.0,
+            "credit": 0.0,
+            "balance": 2110.67
+        },
+        {
+            "date": "15/08/20",
+            "transaction_type": "| PAYMENT VIA MYDEBIT",
+            "merchant": "99 SPEED MART-1054 * / SHAH ALAM",
+            "debit": 20.75,
+            "credit": 0.0,
+            "balance": 2089.92
+        },
+        {
+            "date": "16/08/20",
+            "transaction_type": "| CASH WITHDRAWAL",
+            "merchant": "320483947 *",
+            "debit": 300.0,
+            "credit": 0.0,
+            "balance": 1789.92
+        }
+    ],
+    "total_transactions": 9
+}

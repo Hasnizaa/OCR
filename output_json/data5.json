@@ -1,0 +1,98 @@
+{
+    "customer_info": {
+        "name": "SITINURUL HAIDAR BINT] ABDULLAH SAPIAN magi 30/09/20",
+        "account_number": "112473-091156",
+        "statement_date": "30/09/20"
+    },
+    "transactions": [
+        {
+            "date": "23/07/20",
+            "transaction_type": "| TRANSFER FROM A/C",
+            "merchant": "AZRIM AKHTAR BIN AB* / hyda",
+            "debit": 100.0,
+            "credit": 0.0,
+            "balance": 4071.96
+        },
+        {
+            "date": "23/07/20",
+            "transaction_type": "| IBK FUND TFR FRA/C",
+            "merchant": "NOOR DIANA BINTI YA* / bag",
+            "debit": 280.0,
+            "credit": 0.0,
+            "balance": 3791.96
+        },
+        {
+            "date": "23/07/20",
+            "transaction_type": "| TRANSFER FROM A/C",
+            "merchant": "ROHANI BINTI HASSAN* / baju",
+            "debit": 19.0,
+            "credit": 0.0,
+            "balance": 4072.96
+        },
+        {
+            "date": "24/07/20",
+            "transaction_type": "| FPX PAYMENT FR Aj",
+            "merchant": "297234021 * / SHOPEE MOBILE MALAYS",
+            "debit": 54.62,
+            "credit": 0.0,
+            "balance": 4018.34
+        },
+        {
+            "date": "24/07/20",
+            "transaction_type": "| PYMT FROM A/C",
+            "merchant": "MAXIS BROADBAND * / 2421884343",
+            "debit": 360.0,
+            "credit": 0.0,
+            "balance": 3658.34
+        },
+        {
+            "date": "25/07/20",
+            "transaction_type": "| CASH WITHDRAWAL",
+            "merchant": "300136909 *",
+            "debit": 200.0,
+            "credit": 0.0,
+            "balance": 3458.34
+        },
+        {
+            "date": "27/07/20",
+            "transaction_type": "| TRANSFER FROM A/C",
+            "merchant": "SALWATI BINTI ABDUL* / kek",
+            "debit": 17.0,
+            "credit": 0.0,
+            "balance": 3332.4
+        },
+        {
+            "date": "28/07/20",
+            "transaction_type": "| FUND TRANSFER TO Af",
+            "merchant": "SITI NURUL IDAYU BI* / Alongkutu",
+            "debit": 0.0,
+            "credit": 700.0,
+            "balance": 4032.4
+        },
+        {
+            "date": "28/07/20",
+            "transaction_type": "| IBK FUND TFR FRA/C",
+            "merchant": "YUZURINA BINTI MD Y* / kut hyda",
+            "debit": 1000.0,
+            "credit": 0.0,
+            "balance": 3032.4
+        },
+        {
+            "date": "28/07/20",
+            "transaction_type": "| TRANSFER FROM A/C",
+            "merchant": "CHAI JUN FUL * / legoland ticke",
+            "debit": 130.0,
+            "credit": 0.0,
+            "balance": 2902.4
+        },
+        {
+            "date": "29/07/20",
+            "transaction_type": "| FUND TRANSFER TO Aj.",
+            "merchant": "Perhation / Nota / (1) Somua maklumat dan bas yang dityatakan di sini ekan dianggep bell metaiiken Bank telah dimaklunkan secara betuis tentang seberang keidektepatan dalam:",
+            "debit": 0.0,
+            "credit": 250.0,
+            "balance": 3152.4
+        }
+    ],
+    "total_transactions": 11
+}

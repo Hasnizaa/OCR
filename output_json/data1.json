@@ -1,0 +1,90 @@
+{
+    "customer_info": {
+        "name": "SITINURUL HAIDAR BINT] ABDULLAH SAPIAN magi 30/09/20",
+        "account_number": "112473-091156",
+        "statement_date": "30/09/20"
+    },
+    "transactions": [
+        {
+            "date": "02/07/20",
+            "transaction_type": "| SNHO12)",
+            "merchant": "MALACCA SECURITIES S / WC 0002147743",
+            "debit": 0.0,
+            "credit": 1378.64,
+            "balance": 3576.45
+        },
+        {
+            "date": "02/07/20",
+            "transaction_type": "| SALE DEBIT",
+            "merchant": "279463651 *",
+            "debit": 113.21,
+            "credit": 0.0,
+            "balance": 3463.24
+        },
+        {
+            "date": "02/07/20",
+            "transaction_type": "| FPX PAYMENT FR Af",
+            "merchant": "279516833 * / SHOPEE MOBILE MALAYS",
+            "debit": 39.32,
+            "credit": 0.0,
+            "balance": 3397.59
+        },
+        {
+            "date": "02/07/20",
+            "transaction_type": "| IBK FUND TFR FRA/C",
+            "merchant": "PRA TAHFIZ ASY SYAR* / yuran rasyiid",
+            "debit": 410.0,
+            "credit": 0.0,
+            "balance": 2987.59
+        },
+        {
+            "date": "04/07/20",
+            "transaction_type": "| FUND TRANSFER TO Af",
+            "merchant": "\u2018STTT NURUL IDAYU BI* / Thankyouuu",
+            "debit": 0.0,
+            "credit": 100.0,
+            "balance": 3087.59
+        },
+        {
+            "date": "04/07/20",
+            "transaction_type": "| PAYMENT VIA MYDEBIT",
+            "merchant": "ECO-TELUK PULAI T3 * / SELANGOR",
+            "debit": 166.1,
+            "credit": 0.0,
+            "balance": 2921.49
+        },
+        {
+            "date": "04/07/20",
+            "transaction_type": "| SALE DEBIT",
+            "merchant": "\u2018TTI NURUL IDAYU BI*",
+            "debit": 687.5,
+            "credit": 0.0,
+            "balance": 2233.99
+        },
+        {
+            "date": "05/07/20",
+            "transaction_type": "| PAYMENT VIA MYDEBIT",
+            "merchant": "SKECHERS-SETIA CT M* / SHAH ALAM",
+            "debit": 240.0,
+            "credit": 0.0,
+            "balance": 2543.99
+        },
+        {
+            "date": "05/07/20",
+            "transaction_type": "| SALE DEBIT",
+            "merchant": "282662080 *",
+            "debit": 147.7,
+            "credit": 0.0,
+            "balance": 2396.29
+        },
+        {
+            "date": "06/07/20",
+            "transaction_type": "| TRANSFER FROM A/C",
+            "merchant": "HASNIWATIE BINTI HA* / rotihyda",
+            "debit": 25.0,
+            "credit": 0.0,
+            "balance": 2360.24
+        }
+    ],
+    "total_transactions": 10
+}

@@ -1,0 +1,90 @@
+{
+    "customer_info": {
+        "name": "SITINURUL HAIDAR BINT] ABDULLAH SAPIAN magi 30/09/20",
+        "account_number": "112473-091156",
+        "statement_date": "30/09/20"
+    },
+    "transactions": [
+        {
+            "date": "17/08/20",
+            "transaction_type": "| FPX PAYMENT FR Af",
+            "merchant": "320490427 * / FOODPANDA MALAYSIA S",
+            "debit": 14.23,
+            "credit": 0.0,
+            "balance": 1755.66
+        },
+        {
+            "date": "17/08/20",
+            "transaction_type": "| IBK FUND TRR FR A/C",
+            "merchant": "SUMIZAN * / kereta",
+            "debit": 370.0,
+            "credit": 0.0,
+            "balance": 1385.66
+        },
+        {
+            "date": "17/08/20",
+            "transaction_type": "| IBK FUND TRR FR A/C",
+            "merchant": "SUMIZAN * / kereta",
+            "debit": 250.0,
+            "credit": 0.0,
+            "balance": 1135.66
+        },
+        {
+            "date": "18/08/20",
+            "transaction_type": "| FPX PAYMENT FR A/",
+            "merchant": "321907161 * / FOODPANDA MALAYSIA S.",
+            "debit": 53.4,
+            "credit": 0.0,
+            "balance": 1082.26
+        },
+        {
+            "date": "20/08/20",
+            "transaction_type": "| TRANSFER FROM A/C",
+            "merchant": "WARUNG CHE BUNGA * / 510602340Q",
+            "debit": 140.0,
+            "credit": 0.0,
+            "balance": 942.26
+        },
+        {
+            "date": "20/08/20",
+            "transaction_type": "| PAYMENT VIA MYDEBIT",
+            "merchant": "SI TYRES BATTERY & * / SHAH ALAM",
+            "debit": 680.0,
+            "credit": 0.0,
+            "balance": 262.26
+        },
+        {
+            "date": "22/08/20",
+            "transaction_type": "| FPX PAYMENT FR AY",
+            "merchant": "324710067 * / FOODPANDA MALAYSIA S",
+            "debit": 18.13,
+            "credit": 0.0,
+            "balance": 244.13
+        },
+        {
+            "date": "22/08/20",
+            "transaction_type": "| FUND TRANSFER TO Af",
+            "merchant": "SITI NURUL IDAYU BI* / Ayuukutuu",
+            "debit": 0.0,
+            "credit": 300.0,
+            "balance": 344.13
+        },
+        {
+            "date": "22/08/20",
+            "transaction_type": "| CASH WITHDRAWAL",
+            "merchant": "99 SPEED MART-1709 *",
+            "debit": 200.0,
+            "credit": 0.0,
+            "balance": 344.13
+        },
+        {
+            "date": "22/08/20",
+            "transaction_type": "| FPX PAYMENT FR Af",
+            "merchant": "325191154 * / FOODPANDA MALAYSIA S",
+            "debit": 26.09,
+            "credit": 0.0,
+            "balance": 280.19
+        }
+    ],
+    "total_transactions": 10
+}

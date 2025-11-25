@@ -1,0 +1,82 @@
+{
+    "customer_info": {
+        "name": "SITINURUL HAIDAR BINT] ABDULLAH SAPIAN magi 30/09/20",
+        "account_number": "112473-091156",
+        "statement_date": "30/09/20"
+    },
+    "transactions": [
+        {
+            "date": "19/07/20",
+            "transaction_type": "| FPX PAYMENT FR Af",
+            "merchant": "293248530 * / FOODPANDA MALAYSIA S.",
+            "debit": 22.29,
+            "credit": 0.0,
+            "balance": 687.82
+        },
+        {
+            "date": "19/07/20",
+            "transaction_type": "| IBK FUND TRR FRA/C",
+            "merchant": "NURHAYATI BINTI NOR* / ucut",
+            "debit": 150.0,
+            "credit": 0.0,
+            "balance": 537.82
+        },
+        {
+            "date": "20/07/20",
+            "transaction_type": "| PRE-AUTH MYDEBIT.",
+            "merchant": "PETRON SETIA ALAM * / SHAH ALAM.",
+            "debit": 68.8,
+            "credit": 0.0,
+            "balance": 469.02
+        },
+        {
+            "date": "20/07/20",
+            "transaction_type": "| CASH WITHDRAWAL",
+            "merchant": "PETRON SETIA ALAM *",
+            "debit": 100.0,
+            "credit": 0.0,
+            "balance": 369.02
+        },
+        {
+            "date": "20/07/20",
+            "transaction_type": "| PAYMENT VIA MYDEBIT",
+            "merchant": "PETRON SETIA ALAM * / SHAH ALAM:",
+            "debit": 68.8,
+            "credit": 0.0,
+            "balance": 369.02
+        },
+        {
+            "date": "20/07/20",
+            "transaction_type": "| PAYMENT VIA MYDEBIT.",
+            "merchant": "99 SPEED MART-1709 * / SHAH ALAM",
+            "debit": 88.2,
+            "credit": 0.0,
+            "balance": 280.82
+        },
+        {
+            "date": "21/07/20",
+            "transaction_type": "| PAYMENT VIA MYDEBIT",
+            "merchant": "JABATAN AKAUNTAN NEG",
+            "debit": 336.8,
+            "credit": 0.0,
+            "balance": 144.02
+        },
+        {
+            "date": "23/07/20",
+            "transaction_type": "| IBK FUND TFR FRA/C",
+            "merchant": "BADAN KEBAJIKAN GUR* / yuran",
+            "debit": 120.0,
+            "credit": 0.0,
+            "balance": 4271.96
+        },
+        {
+            "date": "23/07/20",
+            "transaction_type": "| TRANSFER FROM A/C",
+            "merchant": "Perhation / Nota / (1) Semua makfumat dan bels yeng dinyatakan di sini akan dianggep bet melairkan Bonk tilah dimakkunkan secera bectuls tontang saberang ketidaktepatan dalam",
+            "debit": 100.0,
+            "credit": 0.0,
+            "balance": 4171.96
+        }
+    ],
+    "total_transactions": 9
+}

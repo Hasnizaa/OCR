@@ -1,0 +1,90 @@
+{
+    "customer_info": {
+        "name": "SITINURUL HAIDAR BINT] ABDULLAH SAPIAN magi 30/09/20",
+        "account_number": "112473-091156",
+        "statement_date": "30/09/20"
+    },
+    "transactions": [
+        {
+            "date": "13/07/20",
+            "transaction_type": "| FPX PAYMENT FR Af",
+            "merchant": "288798209 * / FOODPANDA MALAYSIA S",
+            "debit": 20.03,
+            "credit": 0.0,
+            "balance": 1942.04
+        },
+        {
+            "date": "13/07/20",
+            "transaction_type": "| SALE DEBIT",
+            "merchant": "",
+            "debit": 9.0,
+            "credit": 0.0,
+            "balance": 1933.04
+        },
+        {
+            "date": "13/07/20",
+            "transaction_type": "| SALE DEBIT",
+            "merchant": "",
+            "debit": 29.0,
+            "credit": 0.0,
+            "balance": 1904.04
+        },
+        {
+            "date": "13/07/20",
+            "transaction_type": "| SALE DEBIT",
+            "merchant": "RAJA NURUL AINI BIN*",
+            "debit": 30.6,
+            "credit": 0.0,
+            "balance": 1873.44
+        },
+        {
+            "date": "13/07/20",
+            "transaction_type": "| FUND TRANSFER TO Af",
+            "merchant": "NUR FARHANA BINTI S* / Birthday",
+            "debit": 0.0,
+            "credit": 45.0,
+            "balance": 1908.44
+        },
+        {
+            "date": "14/07/20",
+            "transaction_type": "| FPX PAYMENT FR A/",
+            "merchant": "MCLOO00000FD1407202* / MALACCA SECURITIES S",
+            "debit": 1500.0,
+            "credit": 0.0,
+            "balance": 408.44
+        },
+        {
+            "date": "14/07/20",
+            "transaction_type": "| TRANSFER FROM A/C",
+            "merchant": "MUHAMMAD HASLAM BIN* / bil",
+            "debit": 60.0,
+            "credit": 0.0,
+            "balance": 348.44
+        },
+        {
+            "date": "14/07/20",
+            "transaction_type": "| TRANSFER FROM A/C",
+            "merchant": "MOHD HAFIZ BIN MAT * / radio",
+            "debit": 65.0,
+            "credit": 0.0,
+            "balance": 283.44
+        },
+        {
+            "date": "14/07/20",
+            "transaction_type": "| CASH WITHDRAWAL,",
+            "merchant": "MALACCA SECURITIES S",
+            "debit": 150.0,
+            "credit": 0.0,
+            "balance": 133.44
+        },
+        {
+            "date": "16/07/20",
+            "transaction_type": "| FUND TRANSFER TO A/",
+            "merchant": "WAN FAZLIDA BINTT W* / Skechers",
+            "debit": 0.0,
+            "credit": 170.0,
+            "balance": 735.61
+        }
+    ],
+    "total_transactions": 10
+}

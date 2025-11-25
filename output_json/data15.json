@@ -1,0 +1,98 @@
+{
+    "customer_info": {
+        "name": "SITINURUL HAIDAR BINT] ABDULLAH SAPIAN magi 30/09/20",
+        "account_number": "112473-091156",
+        "statement_date": "30/09/20"
+    },
+    "transactions": [
+        {
+            "date": "24/09/20",
+            "transaction_type": "| PAYMENT VIA MYDEBIT",
+            "merchant": "PETRON SETIA ALAM * / SHAH ALAM",
+            "debit": 81.5,
+            "credit": 0.0,
+            "balance": 33825.8
+        },
+        {
+            "date": "25/09/20",
+            "transaction_type": "| CASH WITHDRAWAL",
+            "merchant": "357123414 *",
+            "debit": 600.0,
+            "credit": 0.0,
+            "balance": 33225.8
+        },
+        {
+            "date": "27/09/20",
+            "transaction_type": "| PAYMENT VIA MYDEBIT",
+            "merchant": "SITE NURUL IDAYU BI*",
+            "debit": 186.8,
+            "credit": 0.0,
+            "balance": 33024.61
+        },
+        {
+            "date": "28/09/20",
+            "transaction_type": "| FPX PAYMENT FR Aj",
+            "merchant": "358771512 * / SHOPEE MOBILE MALAYS",
+            "debit": 111.8,
+            "credit": 0.0,
+            "balance": 31912.81
+        },
+        {
+            "date": "28/09/20",
+            "transaction_type": "| FPX PAYMENT FR Af",
+            "merchant": "MCLO000000FD2809207* / MALACCA SECURITIES S",
+            "debit": 15000.0,
+            "credit": 0.0,
+            "balance": 16912.81
+        },
+        {
+            "date": "28/09/20",
+            "transaction_type": "| FUND TRANSFER TO A/",
+            "merchant": "ROHANI BINTI HASSAN* / Kak Anl goodie",
+            "debit": 0.0,
+            "credit": 150.0,
+            "balance": 17062.81
+        },
+        {
+            "date": "28/09/20",
+            "transaction_type": "| IBK FUND TFR TO A/C",
+            "merchant": "BUMI KENANGAN ENTER* / haida",
+            "debit": 0.0,
+            "credit": 5425.0,
+            "balance": 22487.81
+        },
+        {
+            "date": "28/09/20",
+            "transaction_type": "| TRANSFER FROM A/C",
+            "merchant": "SITI NURUL IDAYU BI* / towel",
+            "debit": 3725.0,
+            "credit": 0.0,
+            "balance": 18762.81
+        },
+        {
+            "date": "28/09/20",
+            "transaction_type": "| SALE DEBIT",
+            "merchant": "SITI NURUL IDAYU BI*",
+            "debit": 53.1,
+            "credit": 0.0,
+            "balance": 18709.71
+        },
+        {
+            "date": "29/09/20",
+            "transaction_type": "| TRANSFER FROM A/C",
+            "merchant": "ARYANA BINTI MOHD A* / kut hyda",
+            "debit": 1000.9,
+            "credit": 0.0,
+            "balance": 18409.71
+        },
+        {
+            "date": "30/09/20",
+            "transaction_type": "| TRANSFER FROM A/C",
+            "merchant": "Perhation / Nota / (1) Semua makfumat dan bels yeng dinyatakan di sini akan dianggep bet melairkan Bonk tilah dimakkunkan secera bectuls tontang saberang ketidaktepatan dalam",
+            "debit": 500.0,
+            "credit": 0.0,
+            "balance": 17909.71
+        }
+    ],
+    "total_transactions": 11
+}

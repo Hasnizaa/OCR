@@ -1,0 +1,82 @@
+{
+    "customer_info": {
+        "name": "SITINURUL HAIDAR BINT] ABDULLAH SAPIAN magi 30/09/20",
+        "account_number": "112473-091156",
+        "statement_date": "30/09/20"
+    },
+    "transactions": [
+        {
+            "date": "25/08/20",
+            "transaction_type": "| CASH WITHDRAWAL",
+            "merchant": "RAIHAN BINTI MUSTAF*",
+            "debit": 400.0,
+            "credit": 0.0,
+            "balance": 11348.59
+        },
+        {
+            "date": "25/08/20",
+            "transaction_type": "| FPX PAYMENT FR Af",
+            "merchant": "327878932 * / FOODPANDA MALAYSIA S",
+            "debit": 30.03,
+            "credit": 0.0,
+            "balance": 11483.56
+        },
+        {
+            "date": "26/08/20",
+            "transaction_type": "| PYMT FROM A/C",
+            "merchant": "MAXIS BROADBAND * / 2421884343",
+            "debit": 360.0,
+            "credit": 0.0,
+            "balance": 11123.56
+        },
+        {
+            "date": "26/08/20",
+            "transaction_type": "| TRANSFER FROM A/C",
+            "merchant": "AZRIM AKHTAR BIN AB* / kut hyda",
+            "debit": 100.0,
+            "credit": 0.0,
+            "balance": 11023.56
+        },
+        {
+            "date": "28/08/20",
+            "transaction_type": "| PRE-AUTH MYDEBIT.",
+            "merchant": "PETRON SETIA ALAM * / SHAH ALAM",
+            "debit": 71.3,
+            "credit": 0.0,
+            "balance": 10952.26
+        },
+        {
+            "date": "28/08/20",
+            "transaction_type": "| PAYMENT VIA MYDEBIT",
+            "merchant": "PETRON SETIA ALAM * / SHAH ALAM",
+            "debit": 71.3,
+            "credit": 0.0,
+            "balance": 10952.26
+        },
+        {
+            "date": "28/08/20",
+            "transaction_type": "| TRANSFER FROM A/C",
+            "merchant": "ABDULLAH SAPIAN * / duit saham",
+            "debit": 5000.0,
+            "credit": 0.0,
+            "balance": 5952.26
+        },
+        {
+            "date": "28/08/20",
+            "transaction_type": "| FPX PAYMENT FR Aj",
+            "merchant": "330171217 * / FOODPANDA MALAYSIA S$",
+            "debit": 13.93,
+            "credit": 0.0,
+            "balance": 5938.33
+        },
+        {
+            "date": "28/08/20",
+            "transaction_type": "| SNHO12)",
+            "merchant": "Perhation / Nota / roy \u2018Semua maklumat dan baki yang dinyataken di sini akan danggep betul metairkan Bank telah dimakkunkan secara bertulis tantang sebarang kefidektepatan dalam",
+            "debit": 0.0,
+            "credit": 6132.7,
+            "balance": 12771.03
+        }
+    ],
+    "total_transactions": 9
+}

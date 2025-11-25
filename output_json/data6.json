@@ -1,0 +1,98 @@
+{
+    "customer_info": {
+        "name": "SITINURUL HAIDAR BINT] ABDULLAH SAPIAN magi 30/09/20",
+        "account_number": "112473-091156",
+        "statement_date": "30/09/20"
+    },
+    "transactions": [
+        {
+            "date": "29/07/20",
+            "transaction_type": "| IBK FUND TFR FR A/C",
+            "merchant": "PUAN SITT NURUL HAI* / hotel",
+            "debit": 185.0,
+            "credit": 0.0,
+            "balance": 2967.4
+        },
+        {
+            "date": "29/07/20",
+            "transaction_type": "| SALE DEBIT",
+            "merchant": "\u2018SITI NURUL HAIDAR B*",
+            "debit": 186.24,
+            "credit": 0.0,
+            "balance": 2781.16
+        },
+        {
+            "date": "30/07/20",
+            "transaction_type": "| SNHO12)",
+            "merchant": "MALACCA SECURITIES S / WC 0002321912",
+            "debit": 0.0,
+            "credit": 1243.21,
+            "balance": 4209.37
+        },
+        {
+            "date": "31/07/20",
+            "transaction_type": "| PAYMENT VIA MYDEBIT",
+            "merchant": "RESTORAN ASAM PEDAS* / JOHOR BAHRU",
+            "debit": 153.4,
+            "credit": 0.0,
+            "balance": 4055.97
+        },
+        {
+            "date": "01/08/20",
+            "transaction_type": "| PAYMENT VIA MYDEBIT",
+            "merchant": "99 SPEED MART-2339 * / MELAKA",
+            "debit": 8.6,
+            "credit": 0.0,
+            "balance": 4047.37
+        },
+        {
+            "date": "02/08/20",
+            "transaction_type": "| FUND TRANSFER TO A/",
+            "merchant": "SITI NURUL IDAYU BI* / Ayuu",
+            "debit": 0.0,
+            "credit": 10.0,
+            "balance": 4057.37
+        },
+        {
+            "date": "02/08/20",
+            "transaction_type": "| IBK FUND TR FRA/C",
+            "merchant": "\u2018STTI NURUL ASHIKIN * / cuti2",
+            "debit": 130.0,
+            "credit": 0.0,
+            "balance": 3927.37
+        },
+        {
+            "date": "02/08/20",
+            "transaction_type": "| TRANSFER FROM A/C",
+            "merchant": "cuti2",
+            "debit": 200.0,
+            "credit": 0.0,
+            "balance": 3727.37
+        },
+        {
+            "date": "02/08/20",
+            "transaction_type": "| IBK FUND TFR FRA/C",
+            "merchant": "SITI NURUL ASHIKIN * / minyaktol",
+            "debit": 100.0,
+            "credit": 0.0,
+            "balance": 3627.37
+        },
+        {
+            "date": "02/08/20",
+            "transaction_type": "| TRANSFER FROM A/C",
+            "merchant": "\u2018STTT NURUL IDAYU BI* / minyktol",
+            "debit": 100.0,
+            "credit": 0.0,
+            "balance": 3527.37
+        },
+        {
+            "date": "02/08/20",
+            "transaction_type": "| CASH WITHDRAWAL",
+            "merchant": "Perhation / Nota",
+            "debit": 500.0,
+            "credit": 0.0,
+            "balance": 3027.37
+        }
+    ],
+    "total_transactions": 11
+}

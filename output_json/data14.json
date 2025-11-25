@@ -1,0 +1,98 @@
+{
+    "customer_info": {
+        "name": "SITINURUL HAIDAR BINT] ABDULLAH SAPIAN aes 30/09/20",
+        "account_number": "112473-091156",
+        "statement_date": "30/09/20"
+    },
+    "transactions": [
+        {
+            "date": "18/09/20",
+            "transaction_type": "| SNHO12)",
+            "merchant": "MALACCA SECURITIES S / WC 0002712529",
+            "debit": 0.0,
+            "credit": 303.96,
+            "balance": 15381.61
+        },
+        {
+            "date": "18/09/20",
+            "transaction_type": "| CASH WITHDRAWAL",
+            "merchant": "351169981 *",
+            "debit": 300.0,
+            "credit": 0.0,
+            "balance": 15081.61
+        },
+        {
+            "date": "20/09/20",
+            "transaction_type": "| PAYMENT VIA MYDEBIT",
+            "merchant": "",
+            "debit": 386.55,
+            "credit": 0.0,
+            "balance": 14676.87
+        },
+        {
+            "date": "20/09/20",
+            "transaction_type": "| PAYMENT VIA MYDEBIT",
+            "merchant": "MALACCA SECURITIES S",
+            "debit": 311.35,
+            "credit": 0.0,
+            "balance": 14365.52
+        },
+        {
+            "date": "23/09/20",
+            "transaction_type": "| SNHO123",
+            "merchant": "MALACCA SECURITIES S / WC 0002756971",
+            "debit": 0.0,
+            "credit": 2808.85,
+            "balance": 27915.86
+        },
+        {
+            "date": "23/09/20",
+            "transaction_type": "| FUND TRANSFER TO A/",
+            "merchant": "SITI NURUL IDAYU BI* / Ayukutuuu",
+            "debit": 0.0,
+            "credit": 300.0,
+            "balance": 28215.86
+        },
+        {
+            "date": "24/09/20",
+            "transaction_type": "| MAS PAYMENT CREDIT",
+            "merchant": "JABATAN AKAUNTAN NEG / 50481KEMPENDIDIKAN",
+            "debit": 0.0,
+            "credit": 6226.69,
+            "balance": 34442.55
+        },
+        {
+            "date": "24/09/20",
+            "transaction_type": "| PYMT FROM A/C",
+            "merchant": "MAXIS BROADBAND * / 2421884343",
+            "debit": 335.25,
+            "credit": 0.0,
+            "balance": 34107.3
+        },
+        {
+            "date": "24/09/20",
+            "transaction_type": "| PYMT FROM A/C",
+            "merchant": "TENAGA NASIONAL BER* / 220101388405",
+            "debit": 100.0,
+            "credit": 0.0,
+            "balance": 34007.3
+        },
+        {
+            "date": "24/09/20",
+            "transaction_type": "| CASH WITHDRAWAL",
+            "merchant": "PETRON SETIA ALAM *",
+            "debit": 100.0,
+            "credit": 0.0,
+            "balance": 33907.3
+        },
+        {
+            "date": "24/09/20",
+            "transaction_type": "| REV PREAUTH MYDEBIT",
+            "merchant": "PETRON SETIA ALAM * / Pertation { Note",
+            "debit": 0.0,
+            "credit": 81.5,
+            "balance": 33907.3
+        }
+    ],
+    "total_transactions": 11
+}

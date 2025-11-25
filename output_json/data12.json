@@ -1,0 +1,98 @@
+{
+    "customer_info": {
+        "name": "SITINURUL HAIDAR BINT] ABDULLAH SAPIAN magi 30/09/20",
+        "account_number": "112473-091156",
+        "statement_date": "30/09/20"
+    },
+    "transactions": [
+        {
+            "date": "03/09/20",
+            "transaction_type": "| FPX PAYMENT FR Af",
+            "merchant": "336643639 * / FOODPANDA MALAYSIA S",
+            "debit": 12.13,
+            "credit": 0.0,
+            "balance": 22340.23
+        },
+        {
+            "date": "03/09/20",
+            "transaction_type": "| FUND TRANSFER TO Aj.",
+            "merchant": "ROHANI BINTI HASSAN* / Utk Aisysh",
+            "debit": 0.0,
+            "credit": 75.0,
+            "balance": 22415.23
+        },
+        {
+            "date": "04/09/20",
+            "transaction_type": "| CASH WITHDRAWAL.",
+            "merchant": "FIGGYS CAFE *",
+            "debit": 300.0,
+            "credit": 0.0,
+            "balance": 22115.23
+        },
+        {
+            "date": "06/09/20",
+            "transaction_type": "| IBK FUND TFR FR A/C",
+            "merchant": "NASI AYAM PAK MAL * / 7191278530",
+            "debit": 68.5,
+            "credit": 0.0,
+            "balance": 21947.73
+        },
+        {
+            "date": "07/09/20",
+            "transaction_type": "| FPX PAYMENT FR Af",
+            "merchant": "340140378 * / FOODPANDA MALAYSIA S",
+            "debit": 21.52,
+            "credit": 0.0,
+            "balance": 21926.21
+        },
+        {
+            "date": "08/09/20",
+            "transaction_type": "| PAYMENT VIA MYDEBIT",
+            "merchant": "99 SPEED MART-1709 * / SHAH ALAM:",
+            "debit": 26.05,
+            "credit": 0.0,
+            "balance": 21900.16
+        },
+        {
+            "date": "09/09/20",
+            "transaction_type": "| FPX PAYMENT FR Af",
+            "merchant": "343141306 * / FOODPANDA MALAYSIA S$",
+            "debit": 25.49,
+            "credit": 0.0,
+            "balance": 21874.67
+        },
+        {
+            "date": "10/09/20",
+            "transaction_type": "| SNHO12)",
+            "merchant": "MALACCA SECURITIES S / WC 0002670851",
+            "debit": 0.0,
+            "credit": 7015.31,
+            "balance": 28889.98
+        },
+        {
+            "date": "11/09/20",
+            "transaction_type": "| FPX PAYMENT FR A/",
+            "merchant": "344786295 * / FOODPANDA MALAYSIA S.",
+            "debit": 14.43,
+            "credit": 0.0,
+            "balance": 28875.55
+        },
+        {
+            "date": "11/09/20",
+            "transaction_type": "| FPX PAYMENT FR Af",
+            "merchant": "344847094 * / FOODPANDA MALAYSIA S",
+            "debit": 10.39,
+            "credit": 0.0,
+            "balance": 28865.16
+        },
+        {
+            "date": "11/09/20",
+            "transaction_type": "| PRE-AUTH MYDEBIT",
+            "merchant": "Perhation / Nota / (1) Semua makfumat dan bels yeng dinyatakan di sini akan dianggep bet melairkan Bonk tilah dimakkunkan secera bectuls tontang saberang ketidaktepatan dalam",
+            "debit": 85.5,
+            "credit": 0.0,
+            "balance": 28779.66
+        }
+    ],
+    "total_transactions": 11
+}

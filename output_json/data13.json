@@ -1,0 +1,90 @@
+{
+    "customer_info": {
+        "name": "SITINURUL HAIDAR BINT] ABDULLAH SAPIAN magi 30/09/20",
+        "account_number": "112473-091156",
+        "statement_date": "30/09/20"
+    },
+    "transactions": [
+        {
+            "date": "11/09/20",
+            "transaction_type": "| REV PREAUTH MYDEBIT",
+            "merchant": "PETRON SETIA ALAM * / SHAH ALAM",
+            "debit": 0.0,
+            "credit": 85.5,
+            "balance": 28865.16
+        },
+        {
+            "date": "11/09/20",
+            "transaction_type": "| PAYMENT VIA MYDEBIT",
+            "merchant": "PETRON SETIA ALAM * / SHAH ALAM",
+            "debit": 85.5,
+            "credit": 0.0,
+            "balance": 28779.66
+        },
+        {
+            "date": "12/09/20",
+            "transaction_type": "| IBK FUND TRR FR A/C",
+            "merchant": "NURHAYATI BINTI NOR* / urut",
+            "debit": 130.0,
+            "credit": 0.0,
+            "balance": 28649.66
+        },
+        {
+            "date": "12/09/20",
+            "transaction_type": "| IBK FUND TFR FR A/C",
+            "merchant": "NURUL NABILA BINTI * / kopok",
+            "debit": 18.0,
+            "credit": 0.0,
+            "balance": 28631.66
+        },
+        {
+            "date": "13/09/20",
+            "transaction_type": "| IBK FUND TRR FR A/C",
+            "merchant": "NASI KUKUS BOSS) * / 804100112Q",
+            "debit": 164.0,
+            "credit": 0.0,
+            "balance": 28467.66
+        },
+        {
+            "date": "15/09/20",
+            "transaction_type": "| FPX PAYMENT RR A/",
+            "merchant": "348297180 * / FOODPANDA MALAYSIA S-",
+            "debit": 22.13,
+            "credit": 0.0,
+            "balance": 28445.53
+        },
+        {
+            "date": "16/09/20",
+            "transaction_type": "| SALE DEBIT",
+            "merchant": "MCLO000000FD1709206*",
+            "debit": 38.9,
+            "credit": 0.0,
+            "balance": 28406.63
+        },
+        {
+            "date": "17/09/20",
+            "transaction_type": "| SNHO12I",
+            "merchant": "MALACCA SECURITIES S / WC 0002701476",
+            "debit": 0.0,
+            "credit": 6765.41,
+            "balance": 15172.04
+        },
+        {
+            "date": "17/09/20",
+            "transaction_type": "| FPX PAYMENT FR Af",
+            "merchant": "350289405 * / SHOPEE MOBILE MALAYS",
+            "debit": 74.36,
+            "credit": 0.0,
+            "balance": 15097.68
+        },
+        {
+            "date": "18/09/20",
+            "transaction_type": "| FPX PAYMENT FR A/",
+            "merchant": "Perhation / Nota / (1) Semua makfumat dan bels yeng dinyatakan di sini akan dianggep bet melairkan Bonk tilah dimakkunkan secera bectuls tontang saberang ketidaktepatan dalam",
+            "debit": 20.03,
+            "credit": 0.0,
+            "balance": 15077.65
+        }
+    ],
+    "total_transactions": 10
+}

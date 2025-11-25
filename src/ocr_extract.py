@@ -29,7 +29,8 @@ def preprocess_image(image_path):
     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
     gray = cv2.fastNlMeansDenoising(gray, h=30)
 
-    thresh = cv2.adaptiveThreshold(gray, 255,
+    thresh = cv2.adaptiveThreshold(
+        gray, 255,
         cv2.ADAPTIVE_THRESH_GAUSSIAN_C,
         cv2.THRESH_BINARY, 35, 11
     )
@@ -38,80 +39,106 @@ def preprocess_image(image_path):
     cleaned = cv2.morphologyEx(thresh, cv2.MORPH_OPEN, kernel)
     return cleaned
 
-
 # --------------------------------------------------------
 # 2. Extract Raw Text
 # --------------------------------------------------------
 def extract_text(image_path):
     processed = preprocess_image(image_path)
     pil_img = Image.fromarray(processed)
-
-    text = pytesseract.image_to_string(
-        pil_img,
-        config="--psm 6"
-    )
+    text = pytesseract.image_to_string(pil_img, config="--psm 6")
     return text
 
-
 # --------------------------------------------------------
-# 3. Extract Fields (Name, IC, Statement Date)
+# 3. Extract Customer Fields
 # --------------------------------------------------------
-def extract_fields(text):
-
+def extract_customer_info(text):
+    account_number = None
     name = None
-    ic = None
     statement_date = None
 
-    # Name: look for capital letter patterns (simple)
-    match_name = re.search(r"[A-Z ]+ BINTI [A-Z ]+", text)
-    if match_name:
-        name = match_name.group(0).strip()
+    match_ac = re.search(r"\b\d{6}-\d{6}\b", text)
+    if match_ac:
+        account_number = match_ac.group(0)
 
-    # IC detection (usually 12 digits)
-    match_ic = re.search(r"\b\d{12}\b", text)
-    if match_ic:
-        ic = match_ic.group(0)
+    lines = text.split("\n")
+    for i, line in enumerate(lines):
+        if account_number and account_number in line and i >= 2:
+            name = lines[i-2].strip()
+            break
 
-    # Statement Date
-    match_date = re.search(r"\d{2}/\d{2}/\d{2,4}", text)
+    match_date = re.search(r"(?:Statement Date[:\s]*)(\d{2}/\d{2}/\d{2,4})", text, re.IGNORECASE)
     if match_date:
-        statement_date = match_date.group(0)
+        statement_date = match_date.group(1)
+    else:
+        for line in lines[:10]:
+            m = re.search(r"\b\d{2}/\d{2}/\d{2,4}\b", line)
+            if m:
+                statement_date = m.group(0)
+                break
 
     return {
-        "name": name,
-        "ic": ic,
-        "statement_date": statement_date
+        "name": name if name else "Unknown",
+        "account_number": account_number if account_number else "Unknown",
+        "statement_date": statement_date if statement_date else "Unknown"
     }
 
-
-# --------------------------------------------------------
-# 4. Extract Transaction Table
-# --------------------------------------------------------
-def extract_table(text):
+# --------------------------------------
+# 4. Extract Transactions (Supports 2-line merchant)
+# --------------------------------------
+def extract_transactions(text):
     lines = text.split("\n")
-    data = []
+    transactions = []
 
-    transaction_pattern = re.compile(
-        r"(\d{2}/\d{2}/\d{2})\s+\|(.+?)\s+([0-9,]+\.\d{2}[+-])\s+([0-9,]+\.\d{2})"
+    pattern = re.compile(
+        r"(\d{2}/\d{2}/\d{2})\s+"           
+        r"(.+?)\s+"                         
+        r"([0-9,]+\.\d{2}[+-]?)\s+"          
+        r"([0-9,]+\.\d{2})"                  
     )
 
-    for line in lines:
-        m = transaction_pattern.search(line)
+    i = 0
+    while i < len(lines):
+        line = lines[i]
+        m = pattern.search(line)
+
         if m:
-            date, desc, amount, balance = m.groups()
-            data.append({
+            date, transaction_type, amt, bal = m.groups()
+            amt = amt.replace(",", "")
+
+            debit, credit = 0.0, 0.0
+            if amt.endswith("+"):
+                credit = float(amt[:-1])
+            elif amt.endswith("-"):
+                debit = float(amt[:-1])
+            else:
+                debit = float(amt)
+
+            # Capture 2 merchant description lines
+            merchant_lines = []
+            for j in range(1, 3):
+                if i + j < len(lines):
+                    next_line = lines[i + j].strip()
+                    if next_line and not re.match(r"\d{2}/\d{2}/\d{2}", next_line):
+                        merchant_lines.append(next_line)
+
+            merchant = " | ".join(merchant_lines)
+            i += len(merchant_lines)
+
+            transactions.append({
                 "date": date,
-                "description": desc.strip(),
-                "amount": amount.replace(",", ""),
-                "balance": balance.replace(",", "")
+                "transaction_type": transaction_type.strip(),
+                "merchant": merchant.strip(),
+                "debit": debit,
+                "credit": credit,
+                "balance": float(bal.replace(",", ""))
             })
 
-    df = pd.DataFrame(data)
-    return df
+        i += 1
 
+    return pd.DataFrame(transactions)
 
 # --------------------------------------------------------
-# 5. Convert Everything to JSON
+# 6. Convert Everything to JSON
 # --------------------------------------------------------
 def build_json(fields, table_df):
     output = {
@@ -121,9 +148,8 @@ def build_json(fields, table_df):
     }
     return json.dumps(output, indent=4)
 
-
 # --------------------------------------------------------
-# 6. Main Runner
+# 7. Main Runner (Single Image)
 # --------------------------------------------------------
 if __name__ == "__main__":
     image_path = r"C:\Users\user\Documents\INTERNSHIP\PORTFOLIO\hackaton\OCR\data1.jpg"
@@ -132,11 +158,12 @@ if __name__ == "__main__":
     text = extract_text(image_path)
 
     print("\n📌 Raw OCR Extracted!\n")
+    print(text)
 
-    fields = extract_fields(text)
-    df = extract_table(text)
+    fields = extract_customer_info(text)
+    df = extract_transactions(text)
 
-    print("\n📌 Extracted Fields:", fields)
+    print("\n📌 Extracted Customer Info:", fields)
     print("\n📌 Transaction Table:")
     print(df)
 

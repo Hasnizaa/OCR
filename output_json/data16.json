@@ -1,0 +1,26 @@
+{
+    "customer_info": {
+        "name": "SITINURUL HAIDAR BINT] ABDULLAH SAPIAN aes 30/09/20",
+        "account_number": "112473-091156",
+        "statement_date": "30/09/20"
+    },
+    "transactions": [
+        {
+            "date": "30/09/20",
+            "transaction_type": "| TRANSFER FROM A/C",
+            "merchant": "AMINUL BAKHIN = * / Internt",
+            "debit": 20.0,
+            "credit": 0.0,
+            "balance": 17889.71
+        },
+        {
+            "date": "30/09/20",
+            "transaction_type": "| SNHO12]",
+            "merchant": "MALACCA SECURITIES S / WC 0002800276",
+            "debit": 0.0,
+            "credit": 889.86,
+            "balance": 18779.57
+        }
+    ],
+    "total_transactions": 2
+}
